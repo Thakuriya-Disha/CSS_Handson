@@ -1,0 +1,40 @@
+h1{
+    color: red;
+}
+h2{
+    color: red;
+    font-style: italic;
+}
+.list1{
+    color: maroon;
+    line-height: 40px;
+}
+.first{
+    text-decoration: line-through;
+    font-weight: bold;
+}
+.second{
+    font-weight: bold;
+    background-color: yellow;
+}
+.third{
+    font-style: italic;
+    text-decoration: underline;
+}
+.list2{
+    color: maroon;
+    letter-spacing: 5px;
+}
+.fourth{
+    background-color: yellow;
+    font-weight: bold;
+}
+p{
+    color: maroon;
+}
+a{
+    background-color: yellow;
+    font-style: italic;
+    color: red;
+    text-decoration: none;
+}
