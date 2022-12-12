@@ -1,0 +1,117 @@
+body{
+    background-image: url("./media/sahara.jpg");
+    margin:0px 60px;
+    background-size:cover;
+    height:800px;
+}
+header{
+    position:absolute;
+    top:20px;
+    display:flex;
+    justify-content: space-between;
+}
+header img{
+    height:50px;
+    width:50px;
+    position:relative;
+    left:0px;
+}
+nav{
+    position:relative;
+    left:780px;
+    word-spacing:60px;
+}
+li a{
+    display:block;
+    text-decoration: none;
+    color:white;
+}
+nav li{
+    display:inline-block;
+}
+nav img{
+    width:30px;
+    height:30px;
+    position:relative;
+    top:10px;
+}
+article{
+    display:flex;
+    justify-content:space-between;
+    position:absolute;
+    top:130px;
+}
+.intro{
+    display:inline-block;
+    width:500px;
+    position:relative;
+    top:60px;
+}
+h1{
+    color:white;
+    font-size:95px;
+}
+.intro p{
+    position:absolute;
+    top:180px;
+    color:white;
+    line-height: 30px;
+}
+button{
+    border:1px solid white;
+    border-radius:35px;
+    color:black;
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+    padding:9px;
+    width:230px;
+    height:35px;
+    margin-top:10px;
+}
+.desert{
+    display:grid;
+    grid-template-columns:270px 270px;
+    grid-template-rows:290px 290px;
+    gap: 15px 25px;
+    position:relative;
+    left:150px;
+}
+.card{
+    border:1px;
+    border-radius:20px;
+    color:white;
+    padding-left:40px;
+}
+.card p{
+    position:relative;
+    top:1px;
+}
+.one{
+    background-image: url("./media/pic-1.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.two{
+    background-image: url("./media/pic-2.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.three{
+    background-image: url("./media/pic-3.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.four{
+    background-image: url("./media/pic-4.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.card:hover{
+    animation: bounce 2s ease;
+    transform-origin:bottom;
+}
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-25px); }
+    100% { transform: translateY(0); }
+}
