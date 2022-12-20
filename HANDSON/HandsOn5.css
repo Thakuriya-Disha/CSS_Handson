@@ -1,0 +1,174 @@
+body{
+    background-color:yellow;
+    text-align: center;
+}
+span{
+    font-size:26px;
+}
+.flex{
+    display:flex;
+    justify-content:center;
+}
+.row1{
+    border:1px solid yellow;
+    background-color:teal;
+    height:75px; width:75px;
+    margin:25px;
+    animation:one 3s linear infinite alternate-reverse;
+}
+@keyframes one{
+    0%{
+        transform:skew(-45deg);
+    }
+    100%{
+        transform:skew(45deg);
+    }
+}
+.row2{
+    border:1px solid yellow;
+    background-color:grey;
+    height:75px; width:75px;
+    margin:25px;
+    animation:two 3s linear infinite alternate-reverse;
+}
+@keyframes two{
+    0%{
+        transform:skewY(-30deg);
+    }
+    100%{
+        transform:skewY(30deg);
+    }
+}
+.row3{
+    border:1px solid yellow;
+    background-color:teal;
+    height:75px; width:75px;
+    margin:25px;
+    animation:three 3s ease-out infinite normal;
+}
+@keyframes three{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+.box10{
+    border:1px solid black;
+    background-color:teal;
+    height:85px; width:75px;
+    margin:25px;
+    animation:four 3s ease-in-out infinite alternate-reverse;
+}
+@keyframes four{
+    0%{
+        transform:scaleY(1);
+    }
+    100%{
+        transform:scaleY(0.5);
+    }
+}
+.box11{
+    border:1px solid black;
+    background-color:brown;
+    height:75px; width:75px;
+    margin:25px;
+    animation:five 3s linear infinite alternate-reverse;
+}
+@keyframes five{
+    0%{
+        transform:scaleX(0.5);
+    }
+    100%{
+        transform:scaleX(1);
+    }
+}
+.box12{
+    border:1px solid black;
+    background-color:green;
+    height:75px; width:75px;
+    margin:25px;
+    animation:six 3s linear infinite alternate-reverse;
+}
+@keyframes six{
+    0%{
+        transform:rotate(80deg);
+    }
+    100%{
+        transform:rotate(-80deg);
+    }
+}
+ol{
+    position:relative;
+    left:42%;
+}
+.box{
+    border:1px solid limegreen;
+    background-color:limegreen;
+    height:100px; width:100px;
+    margin:25px;
+}
+.A1{
+    transition: width 2s linear; 
+}
+.A1:hover{
+    width:350px;
+}
+.A2{
+    transition: width 1s, height 2s linear; 
+}
+.A2:hover{
+    width:300px; height:330px;
+}
+.A3{
+    transition: width 2s linear; 
+}
+.A3:hover{
+    width:350px;
+}
+.A4{
+    transition: width 2s ease; 
+}
+.A4:hover{
+    width:350px;
+}
+.A5{
+    transition: width 2s ease-in; 
+}
+.A5:hover{
+    width:350px;
+}
+.A6{
+    transition: width 2s ease-out; 
+}
+.A6:hover{
+    width:350px;
+}
+.A7{
+    transition: width 2s ease-in-out; 
+}
+.A7:hover{
+    width:350px;
+}
+.flag1{
+    background-color:orange;
+}
+.flag2{
+    background-color:white;
+}
+.flag3{
+    background-color:green;
+}
+.sky{
+    background-image:url("./media/sky.jpg");
+    border:12px groove;
+    border-color:white green white orange;
+    margin:0px; height:1000px;
+    overflow-x: hidden;
+}
+.sun{
+    background-image:url("./media/sun.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+}
